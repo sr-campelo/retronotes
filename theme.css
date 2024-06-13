@@ -115,7 +115,7 @@ settings:
 
   /* Typography */
   --title-font: "Loew", sans-serif;
-  --text-font: "BlexMono Nerd Font Mono", "Consolas";
+  --text-font: "BlexMono Nerd Font Mono", "Consolas", monospace;
 }
 
 body {
