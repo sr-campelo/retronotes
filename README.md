@@ -16,10 +16,8 @@ At this moment, this theme is intended to use the following fonts (they are not 
 ## Recomended
 - [Style Settings Plugin by @mgmeyers](https://github.com/mgmeyers/obsidian-style-settings). This plugin will aloud you to switch to the alternative colorschemes.
 
-### Light Colorschemes
+### 4 Alternative Light Colorschemes
 <p align="center"><img src="/.github/screenshots/retronotes-light-styles.jpg" alt="Light colorschemes"></p>
-- 4 alternative light colorschemes.
 
-### Dark Colorschemes
+### 3 Alternative Dark Colorschemes
 <p align="center"><img src="/.github/screenshots/retronotes-dark-styles.jpg" alt="Dark colorschemes"></p>
-- 3 alternative dark colorschemes.
