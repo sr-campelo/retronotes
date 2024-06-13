@@ -464,6 +464,13 @@ button.mod-warning:hover {
   color: var(--leather-color-alt) !important;
 }
 
+.theme-dark .input-right-decorator.clickable-icon,
+.theme-dark .markdown-embed-link,
+.theme-dark .code-block-flair,
+.theme-dark .edit-block-button {
+  color: var(--white-ink-muted) !important;
+}
+
 .callout-title {
   color: var(--secondary-ink);
   font-weight: bold;
@@ -834,6 +841,7 @@ button.mod-warning:hover {
   --paper-color: rgba(12, 12, 12, 0.95);
 
   /* Common dark theme settings */
+  --blockquote-border-color: var(--leather-color-alt);
   --interactive-accent: var(--leather-color-alt);
   --interactive-accent-hover: var(--color-base-70);
   --text-on-accent: var(--white-ink) !important;
