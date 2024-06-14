@@ -6,7 +6,9 @@ Sr. Campelo personal theme for [Obsidian](https://obsidian.md/).
 ## Preface
 Notice that I'm building this theme for myself and probably will not work with most of the plugins, but feel free to add issues and pull requests. I will work on them little by little.
 Working on:
-- [ ] Mobile secondary colors correction
+- [x] Adding fonts
+- [x] Mobile secondary colors correction
+- [ ] Calendar plugin compatibility
  
 ## Recomended
 - [Style Settings Plugin by @mgmeyers](https://github.com/mgmeyers/obsidian-style-settings). This plugin will aloud you to switch to the alternative colorschemes.
