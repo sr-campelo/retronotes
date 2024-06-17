@@ -618,6 +618,18 @@ button.mod-warning:hover {
   color: var(--main-ink);
 }
 
+.theme-light .modal-sidebar {
+  background-color: var(--color-base-10);
+}
+
+.theme-light .modal-close-button:hover {
+  background-color: var(--color-base-20);
+}
+
+.community-item {
+  background-color: var(--color-base-05);
+}
+
 /* Default Light Theme -> Parchments */
 .theme-light {
   /* Useful variables */
