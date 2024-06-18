@@ -1096,3 +1096,26 @@ body.is-mobile {
 .vertical-tab-nav-item.mobile-tap {
   background-color: var(--color-base-20);
 }
+
+/* Plugins settings */
+
+  /* Calendar by @liamcain */
+
+.theme-dark .container.svelte-pcimu8 {
+  --color-text-today: var(--text-normal);
+  --interactive-hover: var(--interactive-accent);
+  --color-dot: var(--text-fainted);
+}
+
+.theme-dark .today.svelte-q3wqg9 {
+  background-color: var(--interactive-accent);
+}
+
+.theme-dark .year.svelte-1vwr9dd.svelte-1vwr9dd {
+  color: var(--text-normal);
+}
+
+.theme-light .container.svelte-pcimu8 {
+  --text-muted: var(--leather-contrast-color-muted);
+  --text-normal: var(--leather-contrast-color);
+}
