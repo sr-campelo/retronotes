@@ -1,7 +1,7 @@
 /*!
 /* @settings
 name: RetroNotes Settings
-id: entry-point
+id: retronotes-settings
 settings:
   -
       id: retro-lm
@@ -26,7 +26,7 @@ settings:
           label: Mint Leafs
           value: retro-lm-mint-leafs
   -
-      id: retro-dt
+      id: retro-dm
       title: Choose your dark theme
       type: class-select
       allowEmpty: false
