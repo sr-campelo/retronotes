@@ -907,6 +907,8 @@ button.mod-warning:hover {
   --inline-title-color: var(--secondary-ink);
   --nav-item-background-active: var(--leather-color-alt);
   --canvas-background: var(--color-base-05);
+  --tab-text-color-focused-active-current: var(--white-ink);
+  --tab-text-color-active: var(--white-ink);
 }
 
 .retro-dm-carbon-ink.theme-dark {
