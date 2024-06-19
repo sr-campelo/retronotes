@@ -120,35 +120,6 @@ settings:
   --brown-ink-muted: rgba(163, 62, 22, 0.85);
   --brown-ink-fainted: rgba(163, 62, 22, 0.65);
 
-  /* Secondary Background Colors -> Leather */
-  --parchments-leather: #632335;
-  --parchments-leather-rgb: 99, 35, 53;
-  --parchments-leather-alt: #802d44;
-  --ivorypages-leather: #4e4175;
-  --ivorypages-leather-rgb: 78, 65, 117;
-  --ivorypages-leather-alt: #5f4f8e;
-  --sunnymemos-leather: #6a3a29;
-  --sunnymemos-leather-rgb: 106, 58, 41;
-  --sunnymemos-leather-alt: #864a34;
-  --vintagepapers-leather: #0a2e50;
-  --vintagepapers-leather-rgb: 10, 46, 80;
-  --vintagepapers-leather-alt: #03101c;
-  --mintleafs-leather: #162a0e;
-  --mintleafs-leather-rgb: 22, 42, 14;
-  --mintleafs-leather-alt: #0e1b09;
-  --midnightjournal-leather: #310000;
-  --midnightjournal-leather-rgb: 49, 0, 0;
-  --midnightjournal-leather-alt: #6c0012;
-  --carbonink-leather: #384234;
-  --carbonink-leather-rgb: 56, 66, 52;
-  --carbonink-leather-alt: #8ea086;
-  --forestgreen-leather: #1b231b;
-  --forestgreen-leather-rgb: 27, 25, 27;
-  --forestgreen-leather-alt: #b96800;
-  --blueprint-leather: #140e66;
-  --blueprint-leather-rgb: 20, 14, 102;
-  --blueprint-leather-alt: #281bce;
-
   /* Typography */
   --title-font: "Loew", sans-serif;
   --text-font: "IBM Plex Mono", "Consolas", monospace;
@@ -648,9 +619,9 @@ button.mod-warning:hover {
   --bold-accent-ink: var(--darkgreen-ink);
   --text-accent: var(--leather-color-alt);
   --italic-accent-ink: var(--red-ink);
-  --leather-color: var(--parchments-leather);
-  --leather-color-alt: var(--parchments-leather-alt);
-  --leather-color-rgb: var(--parchments-leather-rgb);
+  --leather-color: #632335;
+  --leather-color-alt: #802d44;
+  --leather-color-rgb: 99, 35, 53;
   --leather-contrast-color: var(--white-ink);
   --leather-contrast-color-muted: var(--white-ink-muted);
   --paper-color: rgba(249, 246, 238, 0.9);
@@ -718,9 +689,9 @@ button.mod-warning:hover {
   --secondary-ink-fainted: var(--darkblue-ink-fainted);
   --bold-accent-ink: var(--darkblue-ink);
   --italic-accent-ink: var(--darkgreen-ink);
-  --leather-color: var(--ivorypages-leather);
-  --leather-color-alt: var(--ivorypages-leather-alt);
-  --leather-color-rgb: var(--ivorypages-leather-rgb);
+  --leather-color: #4e4175;
+  --leather-color-alt: #5f4f8e;
+  --leather-color-rgb: 78, 65, 117;
   --leather-contrast-color: var(--white-ink);
   --leather-contrast-color-muted: var(--white-ink-muted);
   --paper-color: rgba(250, 249, 246, 0.9);
@@ -752,9 +723,9 @@ button.mod-warning:hover {
   --secondary-ink-fainted: var(--darkbrown-ink-fainted);
   --bold-accent-ink: var(--darkgreen-ink);
   --italic-accent-ink: var(--darkblue-ink);
-  --leather-color: var(--sunnymemos-leather);
-  --leather-color-alt: var(--sunnymemos-leather-alt);
-  --leather-color-rgb: var(--sunnymemos-leather-rgb);
+  --leather-color: #6a3a29;
+  --leather-color-alt: #864a34;
+  --leather-color-rgb: 106, 58, 41;
   --leather-contrast-color: var(--white-ink);
   --leather-contrast-color-muted: var(--white-ink-muted);
   --paper-color: rgba(255, 238, 216, 0.9);
@@ -792,9 +763,9 @@ button.mod-warning:hover {
   --secondary-ink-fainted: var(--darkblue-ink-fainted);
   --bold-accent-ink: var(--orange-ink);
   --italic-accent-ink: var(--red-ink);
-  --leather-color: var(--vintagepapers-leather);
-  --leather-color-alt: var(--vintagepapers-leather-alt);
-  --leather-color-rgb: var(--vintagepapers-leather-rgb);
+  --leather-color: #0a2e50;
+  --leather-color-alt: #03101c;
+  --leather-color-rgb: 10, 46, 80;
   --leather-contrast-color: var(--white-ink);
   --leather-contrast-color-muted: var(--white-ink-muted);
   --paper-color: rgba(248, 248, 255, 0.9);
@@ -831,9 +802,9 @@ button.mod-warning:hover {
   --secondary-ink-fainted: var(--darkgreen-ink-fainted);
   --bold-accent-ink: var(--darkgreen-ink);
   --italic-accent-ink: var(--red-ink);
-  --leather-color: var(--mintleafs-leather);
-  --leather-color-alt: var(--mintleafs-leather-alt);
-  --leather-color-rgb: var(--mintleafs-leather-rgb);
+  --leather-color: #162a0e;
+  --leather-color-alt: #0e1b09;
+  --leather-color-rgb: 22, 42, 14;
   --leather-contrast-color: var(--white-ink);
   --leather-contrast-color-muted: var(--white-ink-muted);
   --paper-color: rgba(241, 249, 238, 0.9);
@@ -886,9 +857,9 @@ button.mod-warning:hover {
   --secondary-ink-fainted: var(--orange-ink-fainted);
   --bold-accent-ink: var(--softgreen-ink);
   --italic-accent-ink: var(--softblue-ink);
-  --leather-color: var(--midnightjournal-leather);
-  --leather-color-alt: var(--midnightjournal-leather-alt);
-  --leather-color-rgb: var(--midnightjournal-leather-rgb);
+  --leather-color: #310000;
+  --leather-color-alt: #6c0012;
+  --leather-color-rgb: 49, 0, 0;
   --leather-contrast-color: var(--white-ink);
   --leather-contrast-color-muted: var(--white-ink-muted);
   --paper-color: rgba(12, 12, 12, 0.95);
@@ -937,9 +908,9 @@ button.mod-warning:hover {
   --secondary-ink-fainted: var(--softgreen-ink-fainted);
   --bold-accent-ink: var(--orange-ink);
   --italic-accent-ink: var(--softblue-ink);
-  --leather-color: var(--carbonink-leather);
-  --leather-color-alt: var(--carbonink-leather-alt);
-  --leather-color-rgb: var(--carbonink-leather-rgb);
+  --leather-color: #384234;
+  --leather-color-alt: #8ea086;
+  --leather-color-rgb: 56, 66, 52;
   --leather-contrast-color: var(--white-ink);
   --leather-contrast-color-muted: var(--white-ink-muted);
   --paper-color: rgba(26, 28, 33, 0.95);
@@ -971,9 +942,9 @@ button.mod-warning:hover {
   --secondary-ink-fainted: var(--yellow-ink-fainted);
   --bold-accent-ink: var(--softblue-ink);
   --italic-accent-ink: var(--orange-ink);
-  --leather-color: var(--forestgreen-leather);
-  --leather-color-alt: var(--forestgreen-leather-alt);
-  --leather-color-rgb: var(--forestgreen-leather-rgb);
+  --leather-color: var(--color-base-00);
+  --leather-color-alt: #b96800;
+  --leather-color-rgb: 27, 25, 27;
   --leather-contrast-color: var(--white-ink);
   --leather-contrast-color-muted: var(--white-ink-muted);
   --paper-color: rgba(27, 35, 27, 0.95);
@@ -1005,9 +976,9 @@ button.mod-warning:hover {
   --secondary-ink-fainted: var(--orange-ink-fainted);
   --bold-accent-ink: var(--orange-ink);
   --italic-accent-ink: var(--yellow-ink);
-  --leather-color: var(--blueprint-leather);
-  --leather-color-alt: var(--blueprint-leather-alt);
-  --leather-color-rgb: var(--blueprint-leather-rgb);
+  --leather-color: #140e66;
+  --leather-color-alt: #281bce;
+  --leather-color-rgb: 20, 14, 102;
   --leather-contrast-color: var(--white-ink);
   --leather-contrast-color-muted: var(--white-ink-muted);
   --paper-color: rgba(13, 51, 101, 0.95);
@@ -1120,4 +1091,13 @@ body.is-mobile {
 .theme-light .container.svelte-pcimu8 {
   --text-muted: var(--leather-contrast-color-muted);
   --text-normal: var(--leather-contrast-color);
+}
+
+  /* Editing Toolbar */
+.theme-light .cMenuToolbarDefaultAesthetic button {
+  color: var(--color-base-100);
+}
+
+.theme-light .cMenuToolbarDefaultAesthetic button:hover {
+  color: var(--color-base-00);
 }
