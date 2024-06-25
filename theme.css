@@ -449,6 +449,19 @@ button.mod-warning:hover {
   color: var(--color-base-100) !important;
 }
 
+.modal-setting-nav-bar .clickable-icon,
+.setting-item-control .clickable-icon {
+  --icon-color: var(--color-base-50);
+}
+
+.mod-community-modal .modal-sidebar button.clickable-icon {
+  color: var(--text-muted);
+}
+
+.mod-community-modal .modal-sidebar button.clickable-icon:hover {
+  background-color: var(--color-base-20);
+}
+
 .clickable-icon.setting-add-hotkey-button:hover,
 .input-right-decorator.clickable-icon:hover,
 .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header-inner-icon:hover,
