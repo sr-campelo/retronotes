@@ -429,6 +429,7 @@ button.mod-warning:hover {
   color: var(--color-base-100);
 }
 
+.clickable-icon.setting-restore-hotkey-button,
 .clickable-icon.setting-add-hotkey-button,
 .clickable-icon.graph-controls-button,
 .menu-item-icon,
@@ -438,6 +439,7 @@ button.mod-warning:hover {
   color: var(--color-base-50) !important;
 }
 
+.theme-dark .clickable-icon.setting-restore-hotkey-button,
 .theme-dark .clickable-icon.setting-add-hotkey-button,
 .theme-dark .clickable-icon.graph-controls-button,
 .theme-dark .menu-item-icon,
@@ -500,8 +502,15 @@ button.mod-warning:hover {
   --background-modifier-hover: var(--color-base-25);
 }
 
+.hotkey-filter-inner,
+.hotkey-filter-remove-button,
 .mod-root .workspace-tab-header-container-inner .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title {
   color: var(--color-base-00);
+}
+
+.theme-dark .hotkey-filter-inner,
+.theme-dark .hotkey-filter-remove-button {
+  color: var(--color-base-100);
 }
 
 .theme-dark .mod-root .workspace-tab-header-container-inner .workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title {
