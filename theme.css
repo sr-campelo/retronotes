@@ -44,6 +44,9 @@ settings:
         -
           label: Blueprint
           value: retro-dm-blueprint
+        -
+          label: Pinot Noir
+          value: retro-dm-pinot-noir
   */
 
 @font-face {
@@ -357,6 +360,10 @@ body {
 .theme-dark .empty-state-title::before,
 .theme-dark .empty-state-title::after {
   color: var(--leather-color-alt);
+}
+
+.theme-light .view-header-title-parent .view-header-breadcrumb:hover {
+  background-color: var(--color-base-20);
 }
 
 .titlebar-button,
@@ -1006,6 +1013,43 @@ button.mod-warning:hover {
   --paper-color: rgba(13, 51, 101, 0.95);
 }
 
+.retro-dm-pinot-noir.theme-dark {
+  --color-base-00: #3c191d;
+  --color-base-05: #4a1f24;
+  --color-base-10: #58252a;
+  --color-base-20: #733038;
+  --color-base-25: #81363e;
+  --color-base-30: #8f3c45;
+  --color-base-35: #9d414c;
+  --color-base-40: #ab4753;
+  --color-base-50: #bc5d68;
+  --color-base-60: #c77982;
+  --color-base-70: #d3959c;
+  --color-base-100: #f5e8e9;
+
+  --accent-h: 353.1 !important;
+  --accent-s: 45.5% !important;
+  --accent-l: 55.1% !important;
+
+  --paper-color: rgba(60, 25, 29, 0.95);
+  --main-ink: var(--white-ink);
+  --main-ink-muted: var(--white-ink-muted);
+  --main-ink-fainted: var(--white-ink-fainted);
+  --secondary-ink: #e9cdde;
+  --secondary-ink-muted: rgba(233, 205, 222, 0.85);
+  --secondary-ink-fainted: rgba(233, 205, 222, 0.65);
+  --bold-accent-ink: #c57ba8;
+  --italic-accent-ink: #e3bfd5;
+  --leather-color: var(--color-base-00);
+  --leather-color-alt: #813665;
+  --leather-color-rgb: 60, 25, 29;
+  --leather-contrast-color: var(--white-ink);
+  --leather-contrast-color-muted: var(--white-ink-muted);
+
+  --background-modifier-form-field: var(--color-base-10);
+  --interactive-normal: var(--color-base-20);
+}
+
 /* Mobile settings */
 .is-mobile {
   --mobile-sidebar-background: var(--leather-color);
@@ -1070,6 +1114,31 @@ button.mod-warning:hover {
 
 .theme-dark .mobile-navbar-actions .clickable-icon {
   --icon-color: var(--leather-contrast-color);
+}
+
+.is-mobile.theme-dark button.mod-warning {
+  color: var(--color-base-100);
+}
+
+.is-mobile .workspace-drawer-header-name-text {
+  color: var(--color-base-10);
+}
+
+.is-mobile.theme-dark .workspace-drawer-header-name-text {
+  color: var(--color-base-100);
+}
+
+.is-mobile .mod-confirmation .modal:not(.mod-lg) {
+  background-color: var(--color-base-10);
+  --interactive-normal: var(--color-base-100);
+}
+
+.is-mobile button.mod-warning {
+  color: var(--color-base-00);
+}
+
+.is-mobile .mod-confirmation button.mod-cancel {
+  color: var(--color-base-10);
 }
 
 body.is-mobile {
