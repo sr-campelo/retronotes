@@ -1113,6 +1113,11 @@ button.mod-warning:hover {
   background-color: var(--color-base-00);
 }
 
+.retro-dm-misty-mirage.theme-dark .menu {
+  background-color: var(--color-base-20);
+  --background-modifier-hover: var(--color-base-50);
+}
+
 /* Mobile settings */
 .is-mobile {
   --mobile-sidebar-background: var(--leather-color);
