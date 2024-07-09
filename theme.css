@@ -1196,6 +1196,18 @@ button.mod-warning:hover {
   color: var(--color-base-100);
 }
 
+.is-mobile.retro-dm-misty-mirage.theme-dark .workspace-drawer-header-name-text {
+  color: var(--color-base-00);
+}
+
+.is-mobile.retro-dm-misty-mirage.theme-dark .workspace-drawer-header-info {
+  color: var(--color-base-30);
+}
+
+.retro-dm-misty-mirage.theme-dark .mobile-navbar-actions .clickable-icon {
+  --icon-color: var(--color-base-100);
+}
+
 .is-mobile .mod-confirmation .modal:not(.mod-lg) {
   background-color: var(--color-base-10);
   --interactive-normal: var(--color-base-100);
