@@ -25,7 +25,7 @@ RetroNotes currently offers four additional color schemes to enhance your note-t
 
 <p align="center"><img src="/.github/screenshots/retronotes-dark-styles.jpg" alt="Dark colorschemes"></p>
 
-In addition, RetroNotes includes three extra dark color schemes for those who prefer a darker interface.
+In addition, RetroNotes includes five extra dark color schemes for those who prefer a darker interface.
 
 ## Recomended Plugins
 - [Typewriter Scroll by @death_au](https://github.com/deathau/cm-typewriter-scroll-obsidian)
@@ -38,3 +38,7 @@ In addition, RetroNotes includes three extra dark color schemes for those who pr
 - [x] [Day Planner by James Lynch, continued by @ivan-lednev](https://github.com/ivan-lednev/obsidian-day-planner)
 - [x] [Editing Toolbar by Cuman](https://github.com/cumany/obsidian-editing-toolbar)
 - [x] [Kanban by @mgmeyers](https://github.com/mgmeyers/obsidian-kanban)
+
+## Early collaborators
+Big thanks to [@incantatem1](https://github.com/incantatem1) for their constant collaboration.
+Misty Mirage dark colorscheme is their request, you can go thank them [here](https://github.com/sr-campelo/retronotes/issues/2). 
