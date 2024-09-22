@@ -1119,6 +1119,11 @@ button.mod-warning:hover {
   background-color: var(--color-base-05) !important;
 }
 
+.workspace-leaf-content[data-type=graph],
+.workspace-leaf-content[data-type=localgraph] {
+  background-color: var(--background-primary);
+}
+
 .mod-fade:not(.mod-at-end):after {
   background: var(--color-base-05);
 }
