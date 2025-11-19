@@ -350,18 +350,19 @@ body {
 
     /* Callout */
 .callout {
-  --callout-color: var(--color-base-50-rgb);
-  --callout-abstract: var(--color-base-50-rgb);
+  --callout-bug: var(--color-base-50-rgb);
+  --callout-default: var(--color-base-50-rgb);
+  --callout-error: var(--color-base-50-rgb);
+  --callout-example: var(--color-base-50-rgb);
+  --callout-fail: var(--color-base-50-rgb);
+  --callout-important: var(--color-base-50-rgb);
   --callout-info: var(--color-base-50-rgb);
+  --callout-question: var(--color-base-50-rgb);
+  --callout-success: var(--color-base-50-rgb);
+  --callout-summary: var(--color-base-50-rgb);
   --callout-todo: var(--color-base-50-rgb);
   --callout-tip: var(--color-base-50-rgb);
-  --callout-success: var(--color-base-50-rgb);
-  --callout-question: var(--color-base-50-rgb);
   --callout-warning: var(--color-base-50-rgb);
-  --callout-failure: var(--color-base-50-rgb);
-  --callout-danger: var(--color-base-50-rgb);
-  --callout-bug: var(--color-base-50-rgb);
-  --callout-example: var(--color-base-50-rgb);
   --callout-quote: var(--color-base-50-rgb);
 }
 
@@ -716,6 +717,9 @@ kbd {
   --icon-color-hover: var(--light-ink-alt);
   --icon-color-focused: var(--light-ink-alt);
 }
+.workspace-tab-header.is-active .workspace-tab-header-inner-close-button:hover {
+  --tab-text-color-focused-active-current: var(--light-ink-alt);
+}
 
 .titlebar-inner {
   --titlebar-text-color: var(--light-ink-alt);
@@ -747,6 +751,18 @@ kbd {
   --background-modifier-hover: var(--light-ink-alt);
   --icon-color-hover: var(--main-ink);
   --icon-color-focused: var(--main-ink);
+}
+
+.modal .community-item .community-item-name {
+  font-weight: 600;
+}
+
+body:not(.is-phone) .community-item.is-selected {
+  --text-on-accent: var(--light-ink-muted);
+}
+
+body:not(.is-phone) .community-item:not(.is-selected) .community-item-downloads svg {
+  color: var(--leather-color-alt);
 }
 
 .modal.mod-settings .qsp-tag {
