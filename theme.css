@@ -640,6 +640,12 @@ kbd {
   color: var(--light-ink-alt);
 }
 
+.search-result-file-matches {
+  --text-muted: var(--main-ink-muted);
+  --text-faint: var(--main-ink-fainted);
+  --text-selection: rgba(var(--color-base-50-rgb), 0.3);
+}
+
 .input-right-decorator {
   --icon-color: var(--main-ink);
   --icon-color-active: var(--main-ink);
@@ -675,6 +681,8 @@ kbd {
 
 .workspace-split.mod-right-split .workspace-tab-header:not(.is-active)[data-type='canvas'] .workspace-tab-header-inner,
 .workspace-split.mod-right-split .workspace-tab-header:not(.is-active)[data-type='bases'] .workspace-tab-header-inner,
+.workspace-split.mod-right-split .workspace-tab-header:not(.is-active)[data-type='graph'] .workspace-tab-header-inner,
+.workspace-split.mod-right-split .workspace-tab-header:not(.is-active)[data-type='localgraph'] .workspace-tab-header-inner,
 .workspace-split.mod-right-split .workspace-tab-header:not(.is-active)[data-type='markdown'] .workspace-tab-header-inner {
   background-color: var(--leather-color);
 }
@@ -717,6 +725,7 @@ kbd {
   --icon-color-hover: var(--light-ink-alt);
   --icon-color-focused: var(--light-ink-alt);
 }
+
 .workspace-tab-header.is-active .workspace-tab-header-inner-close-button:hover {
   --tab-text-color-focused-active-current: var(--light-ink-alt);
 }
