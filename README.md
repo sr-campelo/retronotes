@@ -44,6 +44,10 @@ This is a personal theme. Contrast and color choices may not suit every plugin. 
 
 **Tested with:** [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) by @liamcain
 
+## Thanks
+
+[vallietz](https://github.com/vallietz) contributed the contrast and plugin-compatibility work that 2.0.5 builds on.
+
 ## Recommended plugins
 
 - [Better Word Count](https://github.com/lukeleppan/better-word-count) by Luke Leppan

@@ -33,7 +33,7 @@
 
   /* Shared variables */
   --muted: 0.85;
-  --fainted: 0.65;
+  --fainted: 0.70;
 }
 
 body {
@@ -136,11 +136,11 @@ body {
 
   /* Tabs */
   --tab-background-active: var(--color-base-10);
-  --tab-text-color: var(---main-ink-fainted);
-  --tab-text-color-active: var(---main-ink-muted);
-  --tab-text-color-focused: var(---main-ink-fainted);
-  --tab-text-color-focused-active: var(---main-ink-muted);
-  --tab-text-color-focused-highlighted: var(---main-ink-muted);
+  --tab-text-color: var(--main-ink-fainted);
+  --tab-text-color-active: var(--main-ink-muted);
+  --tab-text-color-focused: var(--main-ink-fainted);
+  --tab-text-color-focused-active: var(--main-ink-muted);
+  --tab-text-color-focused-highlighted: var(--main-ink-muted);
   --tab-font-weight: 600;
   --tab-divider-color: none;
   --tab-outline-color: var(--color-base-30);
@@ -263,16 +263,16 @@ body {
   --accent-s: 47.6% !important;
   --accent-l: 49.4% !important;
 
-  --main-ink: #1e3d6d;
-  --main-ink-rgb: 30, 61, 109;
+  --main-ink: #2c241c;
+  --main-ink-rgb: 44, 36, 28;
   --main-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --main-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
-  --secondary-ink: #9c2d32;
-  --secondary-ink-rgb: 156, 45, 50;
+  --secondary-ink: #8b2e38;
+  --secondary-ink-rgb: 139, 46, 56;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #4f6c4f;
-  --italic-accent-ink: #9c2d32;
+  --bold-accent-ink: #5c3d2e;
+  --italic-accent-ink: #8b2e38;
   --light-ink: var(--color-base-00);
   --light-ink-muted: rgba(var(--color-base-00-rgb),var(--muted));
   --light-ink-fainted: rgba(var(--color-base-00-rgb),var(--fainted));
@@ -299,46 +299,46 @@ body {
   --color-base-70: #959595;
   --color-base-100: #d0d0d0;
 
-  --color-red: #8a2e2e;
-  --color-red-rgb: 138, 46, 46;
-  --color-orange: #b3682a;
-  --color-orange-rgb: 179, 104, 42;
+  --color-red: #d97878;
+  --color-red-rgb: 217, 120, 120;
+  --color-orange: #e8893a;
+  --color-orange-rgb: 232, 137, 58;
   --color-yellow: #c29938;
   --color-yellow-rgb: 194, 153, 56;
-  --color-green: #5a7a4d;
-  --color-green-rgb: 90, 122, 77;
-  --color-cyan: #438f93;
-  --color-cyan-rgb: 67, 143, 147;
-  --color-blue: #1a4559;
-  --color-blue-rgb: 26, 69, 89;
-  --color-purple: #5f4a8c;
-  --color-purple-rgb: 95, 74, 140;
-  --color-pink: #b16982;
-  --color-pink-rgb: 177, 105, 130;
+  --color-green: #64ad4b;
+  --color-green-rgb: 100, 173, 75;
+  --color-cyan: #4caddd;
+  --color-cyan-rgb: 76, 173, 221;
+  --color-blue: #6aa0c8;
+  --color-blue-rgb: 106, 160, 200;
+  --color-purple: #a888d4;
+  --color-purple-rgb: 168, 136, 212;
+  --color-pink: #d4849a;
+  --color-pink-rgb: 212, 132, 154;
 
   /* Accent color = --leather-color-alt */
-  --accent-h: 0 !important;
-  --accent-s: 100% !important;
-  --accent-l: 13% !important;
+  --accent-h: 347 !important;
+  --accent-s: 38% !important;
+  --accent-l: 27% !important;
 
     /* Midnight Journal Variables */
   --main-ink: #f9f6ee;
   --main-ink-rgb: 249,246,238;
   --main-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --main-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
-  --secondary-ink: #e2752c;
-  --secondary-ink-rgb: 226, 117, 44;
+  --secondary-ink: #e4a078;
+  --secondary-ink-rgb: 228, 160, 120;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #64ad4b;
-  --italic-accent-ink: #4caddd;
+  --bold-accent-ink: #d49078;
+  --italic-accent-ink: #e8c4b8;
   --light-ink: var(--main-ink);
   --light-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --light-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
   --light-ink-alt: #e2d6d6;
-  --leather-color: #2a0000;
-  --leather-color-alt: #440000;
-  --leather-color-rgb: 75, 0, 0;
+  --leather-color: #4a2029;
+  --leather-color-alt: #5e2a35;
+  --leather-color-rgb: 74, 32, 41;
 }
 
 /* Shared RetroNotes settings */
@@ -1042,16 +1042,16 @@ button:focus-visible {
   --accent-s: 28.7% !important;
   --accent-l: 54.9% !important;
 
-  --main-ink: #03060a;
-  --main-ink-rgb: 3, 6, 10;
+  --main-ink: #1a1624;
+  --main-ink-rgb: 26, 22, 36;
   --main-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --main-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
-  --secondary-ink: #1e3d6d;
-  --secondary-ink-rgb: 30, 61, 109;
+  --secondary-ink: #3f345e;
+  --secondary-ink-rgb: 63, 52, 94;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #1e3d6d;
-  --italic-accent-ink: #3a4f3a;
+  --bold-accent-ink: #2c2644;
+  --italic-accent-ink: #4a4060;
   --light-ink: var(--color-base-00);
   --light-ink-muted: rgba(var(--color-base-00-rgb),var(--muted));
   --light-ink-fainted: rgba(var(--color-base-00-rgb),var(--fainted));
@@ -1082,16 +1082,16 @@ button:focus-visible {
   --accent-s: 76% !important;
   --accent-l: 40% !important;
 
-  --main-ink: #923713;
-  --main-ink-rgb: 146, 55, 19;
+  --main-ink: #5c220c;
+  --main-ink-rgb: 92, 34, 12;
   --main-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --main-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
-  --secondary-ink: #6f2a0f;
-  --secondary-ink-rgb: 111, 42, 15;
+  --secondary-ink: #4a1c08;
+  --secondary-ink-rgb: 74, 28, 8;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #184e09;
-  --italic-accent-ink: #1e3d6d;
+  --bold-accent-ink: #3d2010;
+  --italic-accent-ink: #5a2c14;
   --light-ink: var(--color-base-00);
   --light-ink-muted: rgba(var(--color-base-00-rgb),var(--muted));
   --light-ink-fainted: rgba(var(--color-base-00-rgb),var(--fainted));
@@ -1122,16 +1122,16 @@ button:focus-visible {
   --accent-s: 77% !important;
   --accent-l: 68% !important;
 
-  --main-ink: #030509;
-  --main-ink-rgb: 3, 5, 9;
+  --main-ink: #0a0c12;
+  --main-ink-rgb: 10, 12, 18;
   --main-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --main-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
-  --secondary-ink: #111d34;
-  --secondary-ink-rgb: 17, 29, 52;
+  --secondary-ink: #0c1830;
+  --secondary-ink-rgb: 12, 24, 48;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #ae400f;
-  --italic-accent-ink: #ae0f2d;
+  --bold-accent-ink: #142448;
+  --italic-accent-ink: #1a2848;
   --light-ink: var(--color-base-00);
   --light-ink-muted: rgba(var(--color-base-00-rgb),var(--muted));
   --light-ink-fainted: rgba(var(--color-base-00-rgb),var(--fainted));
@@ -1170,8 +1170,8 @@ button:focus-visible {
   --secondary-ink-rgb: 21, 70, 8;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #154608;
-  --italic-accent-ink: #900d26;
+  --bold-accent-ink: #1a3810;
+  --italic-accent-ink: #2a4a20;
   --light-ink: var(--color-base-00);
   --light-ink-muted: rgba(var(--color-base-00-rgb),var(--muted));
   --light-ink-fainted: rgba(var(--color-base-00-rgb),var(--fainted));
@@ -1203,16 +1203,16 @@ button:focus-visible {
   --accent-s: 12% !important;
   --accent-l: 23% !important;
 
-  --main-ink: #f8f8f8;
-  --main-ink-rgb: 248,248,248;
+  --main-ink: #f4f1ea;
+  --main-ink-rgb: 244,241,234;
   --main-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --main-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
-  --secondary-ink: #639553;
-  --secondary-ink-rgb: 99, 149, 83;
+  --secondary-ink: #a8b89a;
+  --secondary-ink-rgb: 168, 184, 154;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #e2752c;
-  --italic-accent-ink: #4caddd;
+  --bold-accent-ink: #c4b49a;
+  --italic-accent-ink: #c8c4b8;
   --light-ink: var(--main-ink);
   --light-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --light-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
@@ -1243,16 +1243,16 @@ button:focus-visible {
   --accent-s: 13% !important;
   --accent-l: 20% !important;
 
-  --main-ink: #f8f8f8;
-  --main-ink-rgb: 248,248,248;
+  --main-ink: #f4f1ea;
+  --main-ink-rgb: 244,241,234;
   --main-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --main-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
-  --secondary-ink: #f49d18;
-  --secondary-ink-rgb: 244, 157, 24;
+  --secondary-ink: #d4b07a;
+  --secondary-ink-rgb: 212, 176, 122;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #5d9ed8;
-  --italic-accent-ink: #f49d18;
+  --bold-accent-ink: #c4c4a0;
+  --italic-accent-ink: #e0d4b8;
   --light-ink: var(--main-ink);
   --light-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --light-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
@@ -1283,16 +1283,16 @@ button:focus-visible {
   --accent-s: 76% !important;
   --accent-l: 38% !important;
 
-  --main-ink: #f5f6f8;
-  --main-ink-rgb: 245,246,248;
+  --main-ink: #eef2f6;
+  --main-ink-rgb: 238,242,246;
   --main-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --main-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
-  --secondary-ink: #e38421;
-  --secondary-ink-rgb: 227, 132, 33;
+  --secondary-ink: #f0a050;
+  --secondary-ink-rgb: 240, 160, 80;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #e38421;
-  --italic-accent-ink: #efbb1a;
+  --bold-accent-ink: #e89848;
+  --italic-accent-ink: #f0b878;
   --light-ink: var(--main-ink);
   --light-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --light-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
@@ -1327,12 +1327,12 @@ button:focus-visible {
   --main-ink-rgb: 247,245,245;
   --main-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --main-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
-  --secondary-ink: #ca9f83;
-  --secondary-ink-rgb: 202, 159, 131;
+  --secondary-ink: #d4b8a0;
+  --secondary-ink-rgb: 212, 184, 160;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #d6bd75;
-  --italic-accent-ink: #e4d3a3;
+  --bold-accent-ink: #e0c8a8;
+  --italic-accent-ink: #e8d8c8;
   --light-ink: var(--main-ink);
   --light-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --light-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
@@ -1363,16 +1363,16 @@ button:focus-visible {
   --accent-s: 67% !important;
   --accent-l: 84% !important;
 
-  --main-ink: #f9f8fe;
-  --main-ink-rgb: 249,248,249;
+  --main-ink: #f4f0f8;
+  --main-ink-rgb: 244,240,248;
   --main-ink-muted: rgba(var(--main-ink-rgb),var(--muted));
   --main-ink-fainted: rgba(var(--main-ink-rgb),var(--fainted));
-  --secondary-ink: #e6e6fa;
-  --secondary-ink-rgb: 230, 230, 250;
+  --secondary-ink: #d4cce8;
+  --secondary-ink-rgb: 212, 204, 232;
   --secondary-ink-muted: rgba(var(--secondary-ink-rgb), var(--muted));
   --secondary-ink-fainted: rgba(var(--secondary-ink-rgb),var(--fainted));
-  --bold-accent-ink: #a3b28c;
-  --italic-accent-ink: #e6e6fa;
+  --bold-accent-ink: #c8c0d8;
+  --italic-accent-ink: #e8e4f0;
   --light-ink: #000;
   --light-ink-muted: rgba(0,0,0,var(--muted));
   --light-ink-fainted: rgba(0,0,0,var(--fainted));
@@ -1438,9 +1438,8 @@ settings:
 
 
 /* Contrast Clean surface system.
-   A surface changes semantic color variables. Text utilities and native
-   controls then resolve against the nearest surface instead of inheriting a
-   forced foreground from an unrelated parent. */
+   Dark surfaces (leather, accent chrome) use --light-ink.
+   Light surfaces (paper, fields, cards) use --main-ink. */
 body {
   --surface-primary-normal: var(--main-ink);
   --surface-primary-muted: var(--main-ink-muted);
@@ -1451,6 +1450,16 @@ body {
   --surface-secondary-muted: var(--light-ink-muted);
   --surface-secondary-faint: var(--light-ink-fainted);
   --surface-secondary-accent: var(--light-ink-alt);
+
+  --selection-background: var(--leather-color);
+  --selection-foreground: var(--light-ink);
+  --sidebar-row-hover-background: var(--leather-color-alt);
+  --sidebar-row-selected-background: color-mix(in srgb, var(--leather-color-alt) 82%, var(--color-base-00));
+  --sidebar-row-selected-marker: var(--light-ink-alt);
+  --form-field-background: color-mix(in srgb, var(--color-base-00) 72%, var(--color-base-05));
+  --form-field-background-hover: var(--color-base-00);
+  --form-field-background-disabled: var(--color-base-10);
+  --form-field-placeholder: rgba(var(--main-ink-rgb), 0.55);
 }
 
 /* Light/content surfaces, including nested cards and plugin panels. */
@@ -1472,7 +1481,7 @@ body {
   --interactive-hover: var(--color-base-20);
   --interactive-accent: var(--surface-primary-accent);
   --interactive-accent-hover: var(--main-ink);
-  --text-on-accent: var(--color-base-00);
+  --text-on-accent: var(--light-ink);
   --link-color: var(--surface-primary-accent);
   --link-color-hover: var(--secondary-ink-muted);
   --code-normal: var(--surface-primary-normal);
@@ -1510,7 +1519,7 @@ body {
   --interactive-hover: var(--leather-color);
   --interactive-accent: var(--surface-secondary-accent);
   --interactive-accent-hover: var(--surface-secondary-normal);
-  --text-on-accent: var(--surface-primary-normal);
+  --text-on-accent: var(--light-ink);
   --link-color: var(--surface-secondary-accent);
   --link-color-hover: var(--surface-secondary-normal);
   --code-normal: var(--surface-secondary-normal);
@@ -1562,6 +1571,21 @@ body {
   color: var(--text-normal);
 }
 
+@media (hover: hover) {
+  .file-embed.mod-generic:hover,
+  .file-embed.mod-empty:hover {
+    --text-normal: var(--light-ink);
+    color: var(--light-ink);
+    background-color: var(--background-secondary);
+  }
+
+  .clickable-icon:hover {
+    --icon-color-hover: var(--text-normal);
+    color: var(--text-normal);
+    background-color: var(--background-modifier-hover);
+  }
+}
+
 /* Accent components own both halves of the color pair. This prevents an
    ancestor surface from turning a blue/purple CTA into same-color text. */
 :is(
@@ -1610,6 +1634,20 @@ body {
   opacity: 1;
 }
 
+/* Properties should read as one surface. Fields inherit the metadata
+   panel instead of the lighter generic form-field paper. */
+.metadata-container :is(input, textarea, select, .dropdown, .combobox-button):not(.overlay-validator):not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]) {
+  background-color: var(--metadata-background) !important;
+}
+
+.metadata-container :is(input, textarea, select, .dropdown, .combobox-button):not(.overlay-validator):not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]):is(:hover, :focus, :focus-visible) {
+  background-color: var(--metadata-input-background-hover) !important;
+}
+
+.metadata-container :is(input, textarea, select, .dropdown, .combobox-button):not(.overlay-validator):not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]):is(:focus, :focus-visible) {
+  background-color: var(--metadata-input-background-active) !important;
+}
+
 /* Tailwind's 60% muted utility becomes too faint on textured/purple panels. */
 .tw-text-muted\/60 {
   color: var(--text-muted) !important;
@@ -1621,20 +1659,11 @@ body {
   outline-offset: 2px;
 }
 
-/* Obsidian declares its light-theme tokens on .theme-light, which is more
-   specific than RetroNotes' original body rule. Reassert the complete palette
-   on the active scheme so native views and plugins receive one coherent set. */
-body.theme-light.retro-lm-ivory-pages {
-  --selection-background: #3F345E;
-  --selection-foreground: var(--color-base-00);
-  --sidebar-row-hover-background: var(--leather-color-alt);
-  --sidebar-row-selected-background: color-mix(in srgb, var(--leather-color-alt) 82%, var(--color-base-00));
-  --sidebar-row-selected-marker: var(--light-ink-alt);
-  --highlight-foreground: var(--main-ink);
-  --form-field-background: color-mix(in srgb, var(--color-base-00) 72%, var(--color-base-05));
-  --form-field-background-hover: var(--color-base-00);
-  --form-field-background-disabled: var(--color-base-10);
-  --form-field-placeholder: rgba(var(--main-ink-rgb), 0.55);
+/* Obsidian declares its light/dark tokens on .theme-light / .theme-dark,
+   which is more specific than RetroNotes' original body rule. Reassert the
+   complete palette on both modes so every scheme receives one coherent set. */
+body.theme-light,
+body.theme-dark {
   --background-primary: var(--color-base-00);
   --background-primary-alt: var(--color-base-10);
   --background-secondary: var(--leather-color);
@@ -1656,8 +1685,6 @@ body.theme-light.retro-lm-ivory-pages {
   --text-faint: var(--main-ink-fainted);
   --text-accent: var(--secondary-ink);
   --text-accent-hover: var(--secondary-ink-muted);
-  --text-on-accent: var(--color-base-00);
-  --text-on-accent-inverted: var(--color-base-00);
   --text-error: var(--color-red);
   --text-success: var(--color-green);
 
@@ -1676,6 +1703,15 @@ body.theme-light.retro-lm-ivory-pages {
   --tab-text-color-focused-active: var(--main-ink-muted);
   --tab-text-color-focused-highlighted: var(--main-ink);
   --tab-text-color-focused-active-current: var(--main-ink);
+}
+
+/* On light schemes, paper sits on dark secondary-ink CTAs. On dark schemes,
+   keep RetroNotes' light-on-accent pairing so chrome and bright accents stay
+   readable. */
+body.theme-light,
+body.theme-dark {
+  --text-on-accent: var(--light-ink);
+  --text-on-accent-inverted: var(--main-ink);
 }
 
 /* Copilot chat and Agent are full purple sidebar surfaces. Bind links and
@@ -1710,16 +1746,16 @@ body.theme-light.retro-lm-ivory-pages {
 
 /* Toggles keep RetroNotes' native track/thumb pairing in both the main window
    and Obsidian's detached settings window, whose root has no modal ancestor. */
-.theme-light .checkbox-container {
-  --toggle-thumb-color: var(--color-base-00);
+.checkbox-container {
+  --toggle-thumb-color: var(--light-ink);
   background-color: var(--color-base-60) !important;
 }
 
-.theme-light .checkbox-container.is-enabled {
+.checkbox-container.is-enabled {
   background-color: var(--leather-color-alt) !important;
 }
 
-.theme-light .checkbox-container::after {
+.checkbox-container::after {
   background-color: var(--toggle-thumb-color) !important;
 }
 
@@ -1729,7 +1765,7 @@ body.theme-light.retro-lm-ivory-pages {
 section[class*="tw-bg-interactive-accent"] {
   --interactive-accent: var(--surface-secondary-accent);
   --interactive-accent-hover: var(--surface-secondary-normal);
-  --text-on-accent: var(--surface-primary-normal);
+  --text-on-accent: var(--light-ink);
   --text-accent: var(--surface-secondary-accent);
   --text-accent-hover: var(--surface-secondary-normal);
   --link-color: var(--surface-secondary-accent);
@@ -1737,11 +1773,11 @@ section[class*="tw-bg-interactive-accent"] {
 }
 
 section[class*="tw-bg-interactive-accent"] :is(a, .tw-text-accent) {
-  color: #d7cfb7 !important;
+  color: var(--surface-secondary-accent) !important;
 }
 
 section[class*="tw-bg-interactive-accent"] :is(a, .tw-text-accent):hover {
-  color: #faf9f6 !important;
+  color: var(--surface-secondary-normal) !important;
 }
 
 section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] {
@@ -1749,29 +1785,29 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] {
   --text-accent-hover: var(--secondary-ink-muted);
   --interactive-accent: var(--surface-primary-accent);
   --interactive-accent-hover: var(--main-ink);
-  --text-on-accent: var(--color-base-00);
+  --text-on-accent: var(--light-ink);
   --link-color: var(--surface-primary-accent);
   --link-color-hover: var(--secondary-ink-muted);
 }
 
 section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-text-accent) {
-  color: #1e3d6d !important;
+  color: var(--surface-primary-accent) !important;
 }
 
 section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-text-accent):hover {
-  color: #03060a !important;
+  color: var(--surface-primary-normal) !important;
 }
 
 /* Compact Copilot accent controls (for example the Projects add button)
    use an HSL tint utility. Render them as real blue controls with a paired
    light foreground instead of inheriting the beige license-panel palette. */
 [class~="tw-bg-interactive-accent-hsl/10"] {
-  --text-normal: var(--color-base-00);
-  --text-muted: var(--color-base-00);
-  --text-accent: var(--color-base-00);
-  --icon-color: var(--color-base-00);
-  background-color: var(--surface-primary-accent) !important;
-  color: var(--color-base-00);
+  --text-normal: var(--light-ink);
+  --text-muted: var(--light-ink);
+  --text-accent: var(--light-ink);
+  --icon-color: var(--light-ink);
+  background-color: var(--secondary-ink) !important;
+  color: var(--light-ink);
 }
 
 /* Copilot's inline agent tabs sit directly on the purple settings canvas.
@@ -1793,8 +1829,8 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
   --icon-color: var(--surface-primary-normal);
 }
 
-/* Yellow search/mark highlights are light surfaces, so their foreground must
-   never inherit the white text of a purple sidebar. */
+/* Highlights keep the ink of their surface: --main-ink on paper,
+   --light-ink on leather. No extra highlight colors. */
 :is(
   .search-result-file-matched-text,
   .suggestion-highlight,
@@ -1803,7 +1839,7 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
   .cm-highlight,
   .cm-formatting-highlight
 ) {
-  color: var(--highlight-foreground) !important;
+  color: var(--text-normal) !important;
 }
 
 :is(
@@ -1814,7 +1850,7 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
   .cm-highlight,
   .cm-formatting-highlight
 ) :is(a, .internal-link, .external-link) {
-  color: var(--highlight-foreground) !important;
+  color: var(--text-normal) !important;
 }
 
 /* ChatGPT MD provider headers use --background-secondary inside a light
@@ -2066,19 +2102,19 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
 /* Explicit status contracts: success, warning and destructive actions keep
    their labels and icons readable when plugins replace only the background. */
 :is(.mod-warning, .mod-destructive, [class*="bg-error"], [class*="bg-red-"]) {
-  --text-normal: var(--color-base-00);
-  --text-muted: var(--color-base-00);
-  --icon-color: var(--color-base-00);
+  --text-normal: var(--light-ink);
+  --text-muted: var(--light-ink);
+  --icon-color: var(--light-ink);
   background-color: var(--color-red) !important;
-  color: var(--color-base-00);
+  color: var(--light-ink);
 }
 
 :is(.mod-success, [class*="bg-success"], [class*="bg-green-"]) {
-  --text-normal: var(--color-base-00);
-  --text-muted: var(--color-base-00);
-  --icon-color: var(--color-base-00);
-  background-color: #3f6f34 !important;
-  color: var(--color-base-00);
+  --text-normal: var(--light-ink);
+  --text-muted: var(--light-ink);
+  --icon-color: var(--light-ink);
+  background-color: var(--color-green) !important;
+  color: var(--light-ink);
 }
 
 /* Links are frequently styled directly by plugins, bypassing Obsidian's
@@ -2284,4 +2320,76 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
   .tree-item:focus-within > .tag-pane-tag
 ) .tag-pane-tag-count {
   background-color: var(--leather-color) !important;
+}
+
+/* Workspace tabs: notebook labels on the leather titlebar.
+   Paper lives in the center and dissolves into the scheme's pastel at the
+   edges, so the chip feels dyed rather than cut out. */
+.workspace-split.mod-root .workspace-tab-header-container .workspace-tab-header:not(.is-active) .workspace-tab-header-inner {
+  background-color: color-mix(in srgb, var(--color-base-20) 72%, var(--leather-color));
+  background-image: radial-gradient(
+    ellipse 96% 88% at 50% 42%,
+    var(--color-base-00) 0%,
+    var(--color-base-05) 42%,
+    color-mix(in srgb, var(--color-base-20) 55%, var(--color-base-10)) 78%,
+    color-mix(in srgb, var(--color-base-20) 78%, var(--leather-color)) 100%
+  );
+  color: var(--main-ink-muted);
+  font-weight: var(--tab-font-weight);
+  box-shadow: inset 0 0 8px 2px color-mix(in srgb, var(--color-base-20) 28%, transparent);
+}
+
+.workspace-split.mod-root .workspace-tab-header-container .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+  background-color: var(--color-base-20);
+  background-image: radial-gradient(
+    ellipse 96% 88% at 50% 42%,
+    var(--color-base-00) 0%,
+    var(--color-base-05) 50%,
+    var(--color-base-20) 82%,
+    color-mix(in srgb, var(--color-base-20) 70%, var(--leather-color)) 100%
+  );
+  color: var(--main-ink);
+  box-shadow: inset 0 0 6px 2px color-mix(in srgb, var(--color-base-20) 22%, transparent);
+}
+
+.workspace-split.mod-root .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background-color: var(--color-base-00);
+  background-image: radial-gradient(
+    ellipse 98% 96% at 50% 42%,
+    var(--color-base-00) 0%,
+    var(--color-base-00) 62%,
+    color-mix(in srgb, var(--color-base-00) 72%, var(--color-base-20)) 84%,
+    var(--color-base-20) 100%
+  );
+  color: var(--main-ink);
+  font-weight: var(--tab-font-weight);
+  box-shadow: inset 0 0 8px 3px color-mix(in srgb, var(--color-base-20) 32%, transparent);
+}
+
+.workspace-split.mod-root .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner :is(
+  .workspace-tab-header-inner-title,
+  .workspace-tab-header-inner-icon,
+  .workspace-tab-header-inner-close-button
+) {
+  color: var(--main-ink);
+  font-weight: var(--tab-font-weight);
+}
+
+:is(.workspace-split.mod-left-split, .workspace-split.mod-right-split) .workspace-tab-header-container .workspace-tab-header:not(.is-active) .workspace-tab-header-inner {
+  background-color: transparent;
+  color: var(--light-ink-muted);
+  font-weight: var(--tab-font-weight);
+  box-shadow: none;
+}
+
+:is(.workspace-split.mod-left-split, .workspace-split.mod-right-split) .workspace-tab-header-container .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+  background-color: var(--leather-color-alt);
+  color: var(--light-ink-alt);
+}
+
+:is(.workspace-split.mod-left-split, .workspace-split.mod-right-split) .workspace-tab-header-container .workspace-tab-header.is-active .workspace-tab-header-inner {
+  background-color: var(--leather-color-alt);
+  color: var(--light-ink-alt);
+  font-weight: var(--tab-font-weight);
+  box-shadow: inset 0 -1px 0 color-mix(in srgb, var(--light-ink-alt) 70%, transparent);
 }
