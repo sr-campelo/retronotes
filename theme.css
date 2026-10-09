@@ -1837,8 +1837,14 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
 
 /* Highlights keep the ink of their surface: --main-ink on paper,
    --light-ink on leather. No extra highlight colors. */
+
 :is(
   .search-result-file-matched-text,
+) {
+  color: var(--main-ink);
+}
+
+:is(
   .suggestion-highlight,
   .is-flashing,
   mark,
@@ -1849,7 +1855,6 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
 }
 
 :is(
-  .search-result-file-matched-text,
   .suggestion-highlight,
   .is-flashing,
   mark,
