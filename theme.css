@@ -686,7 +686,7 @@ kbd {
 }
 
 .search-results-file-matches:hover,
-.search-results-file-match:hover {
+.search-result-file-match:hover {
   color: var(--main-ink);
 }
 
