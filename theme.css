@@ -685,9 +685,11 @@ kbd {
   --text-normal: var(--light-ink-alt);
 }
 
-.search-results-file-matches:hover {
+.search-results-file-matches:hover,
+.search-results-file-match:hover {
   color: var(--main-ink);
 }
+
 
     /* Inserted tabs on sidebar */
 .workspace-split.mod-sidedock .workspace-leaf-content .cm-editor,
