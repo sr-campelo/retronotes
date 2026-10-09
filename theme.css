@@ -1845,7 +1845,7 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
   .cm-highlight,
   .cm-formatting-highlight
 ) {
-  color: var(--main-ink) !important;
+  color: var(--surface-secondary-accent);
 }
 
 :is(
@@ -1856,7 +1856,7 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
   .cm-highlight,
   .cm-formatting-highlight
 ) :is(a, .internal-link, .external-link) {
-  color: var(--main-ink) !important;
+  color: var(--surface-secondary-accent);
 }
 
 /* ChatGPT MD provider headers use --background-secondary inside a light
