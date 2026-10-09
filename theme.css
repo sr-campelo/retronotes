@@ -618,7 +618,7 @@ kbd {
 }
 
 .setting-hotkey {
-  --background-modifier-hover: var(--leather-color-alt);
+  --hotkey-background: var(--leather-color-alt);
   color: var(--light-ink-alt);
 }
 
@@ -683,6 +683,10 @@ kbd {
 
 .search-params {
   --text-normal: var(--light-ink-alt);
+}
+
+.search-results-file-matches:hover {
+  color: var(--main-ink);
 }
 
     /* Inserted tabs on sidebar */
@@ -1839,7 +1843,7 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
   .cm-highlight,
   .cm-formatting-highlight
 ) {
-  color: var(--text-normal) !important;
+  color: var(--main-ink) !important;
 }
 
 :is(
@@ -1850,7 +1854,7 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
   .cm-highlight,
   .cm-formatting-highlight
 ) :is(a, .internal-link, .external-link) {
-  color: var(--text-normal) !important;
+  color: var(--main-ink) !important;
 }
 
 /* ChatGPT MD provider headers use --background-secondary inside a light
@@ -2101,7 +2105,7 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
 
 /* Explicit status contracts: success, warning and destructive actions keep
    their labels and icons readable when plugins replace only the background. */
-:is(.mod-warning, .mod-destructive, [class*="bg-error"], [class*="bg-red-"]) {
+:is(button.mod-warning, button.mod-destructive, [class*="bg-error"], [class*="bg-red-"]) {
   --text-normal: var(--light-ink);
   --text-muted: var(--light-ink);
   --icon-color: var(--light-ink);
@@ -2109,7 +2113,7 @@ section[class*="tw-bg-interactive-accent"] [class~="tw-bg-primary"] :is(a, .tw-t
   color: var(--light-ink);
 }
 
-:is(.mod-success, [class*="bg-success"], [class*="bg-green-"]) {
+:is(button.mod-success, [class*="bg-success"], [class*="bg-green-"]) {
   --text-normal: var(--light-ink);
   --text-muted: var(--light-ink);
   --icon-color: var(--light-ink);
